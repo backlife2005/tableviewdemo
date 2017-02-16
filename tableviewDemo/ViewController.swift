@@ -14,6 +14,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     @IBOutlet weak var tableView: UITableView!
     
+    var avengers = ["Thor", "Hulk", "Iron Man", "Captain America", "Black Widow"]
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -25,7 +28,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return 12
+        return avengers.count
         
     }
     
