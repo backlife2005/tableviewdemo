@@ -36,7 +36,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         let cell = UITableViewCell ()
         
-        cell.textLabel?.text = "Thor"
+        cell.textLabel?.text = avengers[indexPath.row]
         
         return cell
     }
