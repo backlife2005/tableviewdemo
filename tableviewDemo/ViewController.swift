@@ -33,6 +33,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         let cell = UITableViewCell ()
         
+        cell.textLabel?.text = "Thor"
+        
         return cell
     }
     
