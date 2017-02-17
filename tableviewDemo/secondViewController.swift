@@ -13,8 +13,12 @@ class secondViewController: UIViewController {
     
     @IBOutlet weak var textLable: UILabel!
 
+    var mickey = "Donald"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        textLable.text = mickey
 
         // Do any additional setup after loading the view.
     }
