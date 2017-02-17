@@ -12,6 +12,7 @@
 		F7CFD1AA1E565A2700D842BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CFD1A81E565A2700D842BE /* Main.storyboard */; };
 		F7CFD1AC1E565A2700D842BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7CFD1AB1E565A2700D842BE /* Assets.xcassets */; };
 		F7CFD1AF1E565A2700D842BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CFD1AD1E565A2700D842BE /* LaunchScreen.storyboard */; };
+		F7CFD1B71E56746F00D842BE /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CFD1B61E56746F00D842BE /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F7CFD1AB1E565A2700D842BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7CFD1AE1E565A2700D842BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7CFD1B01E565A2700D842BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7CFD1B61E56746F00D842BE /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				F7CFD1A41E565A2700D842BE /* AppDelegate.swift */,
 				F7CFD1A61E565A2700D842BE /* ViewController.swift */,
 				F7CFD1A81E565A2700D842BE /* Main.storyboard */,
+				F7CFD1B61E56746F00D842BE /* secondViewController.swift */,
 				F7CFD1AB1E565A2700D842BE /* Assets.xcassets */,
 				F7CFD1AD1E565A2700D842BE /* LaunchScreen.storyboard */,
 				F7CFD1B01E565A2700D842BE /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7CFD1A71E565A2700D842BE /* ViewController.swift in Sources */,
+				F7CFD1B71E56746F00D842BE /* secondViewController.swift in Sources */,
 				F7CFD1A51E565A2700D842BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +301,7 @@
 				F7CFD1B51E565A2700D842BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

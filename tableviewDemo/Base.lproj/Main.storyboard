@@ -41,10 +41,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="Wpo-jJ-LXB">
             <objects>
-                <viewController id="gUb-gT-2F6" sceneMemberID="viewController">
+                <viewController id="gUb-gT-2F6" customClass="secondViewController" customModule="tableviewDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GaD-kt-vKn"/>
                         <viewControllerLayoutGuide type="bottom" id="uJQ-J4-kI3"/>
