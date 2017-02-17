@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tableviewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="tableviewDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -37,7 +37,7 @@
                     <navigationItem key="navigationItem" id="whm-Nq-wom"/>
                     <connections>
                         <outlet property="tableView" destination="bPj-wR-tBL" id="TvO-iW-qU2"/>
-                        <segue destination="gUb-gT-2F6" kind="show" id="2Ny-16-6kP"/>
+                        <segue destination="gUb-gT-2F6" kind="show" identifier="oneSegue" id="2Ny-16-6kP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
