@@ -42,10 +42,22 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "oneSegue", sender: nil)
+        
+        performSegue(withIdentifier: "oneSegue", sender: avengers[indexPath.row])
+        
     }
 
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let guest = segue.destination as! secondViewController
+        
+        guest.mickey = sender as! String
+        
+        
+        
+        
+        
+        
+    }
 
 }
 
